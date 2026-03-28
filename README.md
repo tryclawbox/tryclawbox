@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/tryclawbox/tryclawbox/main/banner.jpg" width="100%" />
+
 # Notary
 
 **Audit & compliance infrastructure for x402 payments**
