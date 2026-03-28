@@ -1,24 +1,22 @@
-<p align="center">
-  <img src="https://i.imgur.com/20osas1.jpeg" alt="ClawBox" width="100%" />
-</p>
+<div align="center">
 
-<h2 align="center">ClawBox — Deploy OpenClaw in 60 Seconds</h2>
+# Notary
 
-<p align="center">
-  <a href="https://tryclawbox.app"><img src="https://img.shields.io/badge/Website-tryclawbox.app-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white" alt="Website"></a>
-  <a href="https://x.com/tryclawbox"><img src="https://img.shields.io/badge/Twitter-Follow-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter"></a>
-  <a href="https://github.com/tryclawbox/clawbox"><img src="https://img.shields.io/github/stars/tryclawbox/clawbox?style=for-the-badge&color=f59e0b" alt="Stars"></a>
-</p>
+**Audit & compliance infrastructure for x402 payments**
+
+[![Website](https://img.shields.io/badge/Website-notary402.vercel.app-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white)](https://notary402.vercel.app)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/tryclawbox)
+[![Stars](https://img.shields.io/github/stars/tryclawbox/notary?style=for-the-badge&color=10b981)](https://github.com/tryclawbox/notary)
+
+</div>
 
 ---
 
-We build tools that make deploying **[OpenClaw](https://openclaw.ai)** dead simple. No DevOps degree required.
+Real-time transaction monitoring, budget enforcement, and audit trails for AI agent micropayments on the [x402 protocol](https://github.com/coinbase/x402).
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/tryclawbox/clawbox/main/scripts/install.sh | sudo bash
+git clone https://github.com/tryclawbox/notary && cd notary && pnpm install && pnpm dev
 ```
-
-One command → Node.js + OpenClaw + Firewall + systemd + fail2ban → Done.
 
 ---
 
@@ -28,26 +26,26 @@ One command → Node.js + OpenClaw + Firewall + systemd + fail2ban → Done.
 <tr>
 <td width="33%" align="center">
 
-<img src="https://img.shields.io/badge/-Installer-22c55e?style=flat-square" /><br/>
-<b>ClawBox CLI</b><br/>
-<sub>One-command OpenClaw deploy</sub><br/>
-<a href="https://github.com/tryclawbox/clawbox">View Repo →</a>
+<img src="https://img.shields.io/badge/-Dashboard-10b981?style=flat-square" /><br/>
+<b>Audit Dashboard</b><br/>
+<sub>Real-time x402 transaction analytics</sub><br/>
+<a href="https://github.com/tryclawbox/notary">View Repo →</a>
 
 </td>
 <td width="33%" align="center">
 
-<img src="https://img.shields.io/badge/-Cloud-3b82f6?style=flat-square" /><br/>
-<b>ClawBox Cloud</b><br/>
-<sub>Managed hosting from $9/mo</sub><br/>
-<a href="https://tryclawbox.app">tryclawbox.app →</a>
+<img src="https://img.shields.io/badge/-Explorer-3b82f6?style=flat-square" /><br/>
+<b>Transaction Explorer</b><br/>
+<sub>Search & inspect every payment</sub><br/>
+<a href="https://notary402.vercel.app/explorer">Live Demo →</a>
 
 </td>
 <td width="33%" align="center">
 
-<img src="https://img.shields.io/badge/-Ecosystem-8b5cf6?style=flat-square" /><br/>
-<b>Skills & Integrations</b><br/>
-<sub>500+ community plugins</sub><br/>
-<a href="https://clawhub.com">ClawHub →</a>
+<img src="https://img.shields.io/badge/-Compliance-8b5cf6?style=flat-square" /><br/>
+<b>Budget Policies</b><br/>
+<sub>Spending limits & audit trails</sub><br/>
+<a href="https://notary402.vercel.app/docs">Docs →</a>
 
 </td>
 </tr>
@@ -55,26 +53,14 @@ One command → Node.js + OpenClaw + Firewall + systemd + fail2ban → Done.
 
 ---
 
-### At a Glance
-
-| | |
-|---|---|
-| **Models** | Claude 4.6 · GPT-5.4 · Gemini 2.5 · DeepSeek R2 · 40+ more |
-| **Channels** | WhatsApp · Telegram · Discord · Slack · Signal · 20+ more |
-| **Providers** | Hetzner · DigitalOcean · Vultr · Oracle Free · AWS · GCP |
-| **Deploy** | 60 seconds from zero to running assistant |
-| **Privacy** | Self-hosted. Your data never leaves your server. |
-
----
-
 ### Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Shell-121011?style=flat-square&logo=gnu-bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat-square&logo=shadcnui&logoColor=white" />
+  <img src="https://img.shields.io/badge/Recharts-FF6384?style=flat-square" />
   <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 </p>
