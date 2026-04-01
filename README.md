@@ -6,7 +6,7 @@
 
 **Audit & compliance infrastructure for x402 payments**
 
-[![Website](https://img.shields.io/badge/Website-notary402.vercel.app-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white)](https://x402notary.xyz/)
+[![Website](https://img.shields.io/badge/Website-x402notary.xyz-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white)](https://x402notary.xyz/)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/x402notary)
 [![Stars](https://img.shields.io/github/stars/x402notary/notary?style=for-the-badge&color=10b981)](https://github.com/x402notary/notary)
 
